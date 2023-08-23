@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="utf-8" />
+     <title>Add Your Map Title Here</title> <!--replace with your map title-->
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+     <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.0/mapbox-gl.js"></script>
+     <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.0/mapbox-gl.css" rel="stylesheet" />
+	<style>
+		body { margin: 0; padding: 0; }
+		#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    #map canvas {cursor: move;}
+
+    /*add popup and legend info, Tutorial 7*/
+
+	</style>
+ </head>
+
+ <body>
+  <div id="map"></div>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibXNodWdhcnMyIiwiYSI6ImNrd3pvODgwYTBwbnAyd2x5aWFrZGZ4MXYifQ.xxxxxxxxx'; //replace this with your access token
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mshugars2/ckzyixxxxxxxxx', //replace this with your basemap style
+        center: [-80.3992544,91], //put your default lon/lat here; note reverse order (NOT lat/lon)
+        zoom: 2 //default zoom level
+    });
+
+    //add nav info (Tutorial 6)
+
+
+    
+    //add scale bar (Tutorial 7)
+
+    //add popup variable (Tutorial 7)
+
+    //add map.on mouse enter function (Tutorial 7)
+
+
+
+    //add map.on click function (Tutorial 7)
+
+    //add map.on mouse leave function (Tutorial 7)
+
+  </script>
+ </body>
+</html>
