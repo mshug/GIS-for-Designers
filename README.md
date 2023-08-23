@@ -1,2 +1,2 @@
 # GIS-for-Designers
-online summer course at Virginia Tech
+course taught at Virginia Tech 2022-23
